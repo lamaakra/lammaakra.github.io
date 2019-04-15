@@ -1,0 +1,276 @@
+/* style.css */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+a{
+	text-decoration: none;
+}
+button {
+	background-color: #111; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+button:hover {
+	background-color: #4CAF50;
+}
+
+body {
+	font-family: "Courier New";
+	font-size: 18px;
+}
+
+img {
+	padding-top: 2px;
+}
+
+#title {
+	font-family: "Brush Script MT", cursive;
+	font-size: 70px;
+	margin-bottom: -4px;
+	margin-top: -15px;
+	padding-left: 1%;
+}
+
+li {
+	float: left;
+	border-right: 1px solid #bbb;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a.active {
+	background-color: #4CAF50;
+}
+
+#left {
+	background-color: white;
+	/*padding-left: 20px;*/
+	width: 25%;
+	height: 800px;
+	float: left;
+	box-shadow: 5px 5px 5px 5px grey;
+}
+
+#name {
+	padding-left: 10px;
+	text-shadow: 5px 5px 20px grey;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: #4CAF50;
+}
+
+li.dropdown {
+	display: inline-block;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #333;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown-content a {
+	color: white;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #4CAF50
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+#container {
+	width: 100%;
+	height: 900px;
+	padding-top: 50px;
+	margin-top: 5px;
+	background-image: url('../images/image33.jpg');
+	background-repeat: no-repeat;
+    background-size: auto;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	opacity: 0.85;
+}
+
+#navs {
+	margin: auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.btn1 {
+	background: none;
+	border: 0px;
+	color: white;
+	display: inline;
+}
+
+#profile {
+	opacity: 0.75;
+	margin-left: 15px;
+	width: 25%;
+	height: 700px;
+	float: left;
+	border-right: 5px solid white;
+		color: white;
+}
+
+.profile_pic {
+	opacity: 1;
+	width: 200px;
+	height: 200px;
+	padding-left: 70px;
+	padding-top: 30px;
+}
+
+label {
+	color: white; opacity : 1;
+	display: block;
+	padding-left: 20px;
+	padding-top: 40px;
+	opacity: 1;
+}
+
+input {
+	margin-left: 20px;
+}
+
+#pref {
+	background-color: white;
+	opacity: 0.75;
+	float: left;
+	width: 25%;
+	margin-left: 50px;
+	margin-top: 100px;
+	box-shadow: 5px 5px 5px 5px grey;
+}
+
+#fav {
+	background-color: white;
+	opacity: 0.75;
+	float: left;
+	width: 25%;
+	margin-left: 50px;
+	margin-top: 100px;
+	box-shadow: 5px 5px 5px 5px grey;
+}
+
+p {
+	padding-left: 10px;
+
+}
+
+h3 {
+	padding-left: 50px;
+}
+
+#review {
+	width: 25%;
+	display: block;
+	float: left;
+	background-color: white;
+	opacity: 0.75;
+	margin-left: 50px;
+	margin-top: 100px;
+	box-shadow: 5px 5px 5px 5px grey;
+	font-size: 12pt;
+}

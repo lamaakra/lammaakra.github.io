@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Search</title>
+<link rel='stylesheet' type='text/css' href='CSS/searchRecipes.css' />
+</head>
+<body>
+	<h1 id="title">Foodies</h1>
+	<nav>
+		<div id="nav">
+			<ul>
+				<li><a href="Foodies.html">Home</a></li>
+				<li class="dropdown"><a href="#" class="dropbtn">Browse
+						Recipes</a>
+					<div class="dropdown-content">
+						<a href="#">Top Rated Recipes</a> <a href="international.php">International
+							Cuisines</a>
+					</div></li>
+				<li><a class="active" href="searchRecipes.html">Recipes
+						Search</a></li>
+				<li style="float: right"><a href="userProfile.php">Profile</a></li>
+				<li style="float:right"><a href="register.php">Register/Login</a>
+			</ul>
+		</div>
+	</nav>
+	<div class="titleDiv">
+		<img src="images/pic2.jpeg" style="width: 100%; height: 200px" alt="food">
+
+	</div>
+	<p id="inputing">
+		<strong>Input the Ingredients that are available:</strong><br>
+	</p>
+	<input type="text" name="search"
+		placeholder="Input your ingredients...">
+	<div id="left"></div>
+	<div id=right></div>
+	<div id="total">
+	<form method="post" action="recipesResult.php">
+		<div id="third">
+			<h2>Search in:</h2>
+			<label class="container" >Breakfast<input type="checkbox" name="chk[]" value="Breakfast">
+				<span class="checkmark"></span>
+			</label> <label class="container">Lunch <input type="checkbox" name="chk[]" value="Lunch">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Dinner <input type="checkbox" name="chk[]" value="Dinner">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Snack <input type="checkbox" name="chk[]" value="Snack">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Dessert <input type="checkbox" name="chk[]" value="Dessert">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Salad <input type="checkbox" name="chk[]" value="Salad">
+				<span class="checkmark"></span>
+			</label>
+		</div>
+		<div id="twothird">
+			<h2>Allergies:</h2>
+			<label class="container">Peanut <input type="checkbox" name="chk[]" value="Peanut">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Eggs <input type="checkbox" name="chk[]" value="Eggs"> 
+				<span class="checkmark"></span>
+			</label> <label class="container" >Lactose Intolerant <input
+				type="checkbox" name="chk[]" value="Lactose Intolerant"> <span class="checkmark"></span>
+			</label> <label class="container" >Soy <input type="checkbox" name="chk[]" value="Soy">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Corn <input type="checkbox" name="chk[]" value="Corn">
+				<span class="checkmark"></span>
+			</label> <label class="container">Garlic <input type="checkbox" name="chk[]" value="Garlic">
+				<span class="checkmark"></span>
+			</label>
+		</div>
+		<div id="threethird">
+			<h2>Other:</h2>
+			<label class="container">Vegetarian <input type="checkbox" name="chk[]" value="Vegetarian">
+				<span class="checkmark"></span>
+			</label> <label class="container">Vegan <input type="checkbox" name="chk[]" value="Vegan">
+				<span class="checkmark"></span>
+			</label> <label class="container" >Diabetic <input type="checkbox" name="chk[]" value="Diabetic">
+				<span class="checkmark"></span>
+			</label> <label class="container">Pescatarian <input type="checkbox" name="chk[]" value="Pescatarian">
+				<span class="checkmark"></span>
+			</label>
+		</div>
+	
+	<input type="submit" name="submit" Value="Search" id="search"/>
+	</form>
+	</div>
+	
+</body>
+</html>

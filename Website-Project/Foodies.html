@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Foodies</title>
+	<link rel='stylesheet' type='text/css' href='CSS/Foodies.css'/>
+	<script>
+	var timerid = 0;
+	var images = new Array(	"images/image1.jpg",
+				"images/image2.jpg",
+				"images/image3.jpg","images/image4.jpg", "images/image5.jpg", "images/image6.jpg", "images/image7.jpg",
+				"images/image8.jpg", "images/image9.jpg", "images/image10.jpg", "images/image11.jpg", "images/image12.jpg",
+				"images/image13.jpg", "images/image14.jpg", "images/image15.jpg", "images/image16.jpg", "images/image17.jpg",
+				"images/image18.jpeg", "images/image19.jpeg", "images/image20.jpg", "images/image21.jpg", "images/image22.jpg",
+				"images/image23.jpg");
+	var countimages = 0;
+	function startTime()
+	{
+		if(timerid)
+		{
+			timerid = 0;
+		}
+		var tDate = new Date();
+
+		if(countimages == images.length)
+		{
+			countimages = 0;
+		}
+		if(tDate.getSeconds() % 5 == 0)
+		{
+			document.getElementById("img1").src = images[countimages];
+		}
+		countimages++;
+
+		timerid = setTimeout("startTime()", 1000);
+	}
+</script>
+</head>
+<body onload="startTime();">
+<h1 id="title">Foodies</h1>
+	<nav>
+<div id="nav">
+<ul>
+  <li><a class="active" href="Foodies.html">Home</a></li>
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Browse Recipes</a>
+    <div class="dropdown-content">
+      <a href="#">Top Rated Recipes</a>
+      <a href="international.php">International Cuisines</a>
+    </div>
+  </li>
+  <li><a href="searchRecipes.html">Recipes Search</a></li>
+  <li style="float:right"><a href="userProfile.php">Profile</a></li>
+  <li style="float:right"><a href="register.php">Register/Login</a>
+
+</ul>
+</div>
+</nav>
+<div id="left">
+<h1>About Us</h1>
+<p id="textleft">
+	We've all been through the struggle of having a lot of ingredients in the house but not knowing what to cook,
+	or wanting to cook something new but barely have anything from the list of ingredients in the recipe we looked up online.
+	<i>Foodies</i> allows you to find new recipes on the spot, without having to go outside to buy the ingredients that you don't have.
+	Saving you the time you would have spent searching for the ingredients and the hassle of getting the right ones.
+	<i>Foodies</i> allows you to cook from the comfort of your home using only the ingredients that are available to you.
+	Saving you <strong>time, money, and stress</strong> since 2018.<br><br>
+	<span>Create, Cook, Enjoy.</span>
+
+</p>
+</div>
+<div id="main">
+<img id="img1" src="images/image1.jpg" class="center" alt="food" />
+</div>
+</body>
+</html>

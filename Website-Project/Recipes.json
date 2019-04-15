@@ -1,0 +1,161 @@
+{
+	"recipes": [{
+			"directions": ["Place the sugar, salt, olive oil, water, and flour in a standing mixers work bowl",
+				"Tear off a small piece of dough and flatten into a disc, and knead the dough for additional 10 minutes",
+				"Turn the oven to its highest temperature,Spread the pizza sauce evenly onto the pizza,Slide the pizza onto the tile and bake for 7 minutes."
+			],
+			"ingredients": [
+				"Kosher Salt",
+				"Sugar",
+				"Olive Oil",
+				"Warm Water",
+				"Bread Flour",
+				"Yeast",
+				"Pizza Sauce",
+				"Herbs",
+				"Cheese"
+			],
+      "image":"pizza.jpg",
+			"nationality": "Italian",
+			"tags": [
+        "Lunch",
+				"Vegetarian",
+				"Pescatarian",
+				"Peanut Free"
+			],
+			"title": "Pizza"
+		},
+
+		{
+			"directions": [
+				"Heat chocolate chips and 4 tablespoons cream in microwave in 1-cup glass measuring cup at 50 percent power just until chocolate is melted, about 30 to 35 seconds. Stir to blend.",
+				"Using 2 1/2-inch-diameter cookie cutter, cut out round from each angel food cake slice. Place 1 cake round in each of 4 wine goblets or old-fashioned glasses.",
+				"Top each cake round with 3 banana slices, 1 heaping tablespoon mascarpone mixture, bittersweet chocolate sauce, and sprinkling of almonds.Repeat parfait layering 1 more time and serve."
+			],
+			"ingredients": [
+				"Chocolate chips",
+				"Whipping cream",
+				"Cheese",
+				"Sugar",
+				"Banana"
+			],
+			"image": "parfaits.jpg",
+			"nationality": "French",
+			"tags": [
+				"Dessert",
+				"Vegetarian",
+				"Pescatarian",
+				"Peanut Free",
+				"Soy Free"
+			],
+			"title": "Chocolate, Almond, and Banana Parfaits"
+		},
+		{
+			"directions": [
+				"Combine the garlic,mustard , vinegar and two salt spoons in the blend",
+				"Mix thoroughly and add mayonnaise and blend them together",
+				"Wash and dry the lettuce ,then combine the lettuce with the sauce."
+			],
+			"ingredients": [
+				"Garlic",
+				"Dijon",
+				"Vinegar",
+				"Mayonnaise",
+				"Olive Oil",
+				"Black Pepper",
+				"Lemon Juice",
+				"Lettuce"
+			],
+			"image": "salad.jpg",
+			"nationality": "Italian-American",
+			"tags": [
+				"Salad",
+				"Vegetarian",
+				"Pescatarian",
+				"Peanut Free"
+	],
+			"title": "Caesar Salad"
+		},
+		{
+			"directions": [
+				"Mix the zaatar and olive oil aside.",
+				"Sift the flour,yeast , sugar , and salt in and electrical robot and mix aroun 10-12 minutes.",
+				"Add water gradually , then cover the bowl with cling film and put it in a warm place.",
+				"Spread the zaatar onto the dough and cook for 5 minutes."
+			],
+			"ingredients": [
+				"Zaatar",
+				"Cheese",
+				"Olives",
+				"Tomatoes",
+				"Olive Oil",
+				"Yeast",
+				"Sugar",
+				"Salt",
+				"Olive Oil",
+				"Flour"
+			],
+			"image": "manakesh.jpg",
+			"nationality": "Lebanese",
+			"tags": [
+				"Breakfast",
+				"Dinner",
+				"Pescatarian",
+				"Peanut Free",
+				"Soy Free"
+			],
+			"title": "Manakesh"
+		},
+		{
+			"directions": [
+				"Heat the oil in a 3-quart thick-bottomed saucepan on medium high heat. If you are using coconut oil, allow all of the solid oil to melt.",
+				"Melt Butter in the pan",
+				"Wait for the popcorn kernels to pop.",
+				"Add Salt"
+			],
+			"ingredients": [
+				"Coconut oil",
+				"Popcorn kernels",
+				"Butter",
+				"Salt",
+				"Olive Oil"
+			],
+			"image": "popcorn.jpg",
+			"nationality": "American",
+			"tags": [
+				"Dinner",
+				"Snack",
+				"Pescatarian",
+				"Peanut Free",
+				"Soy Free"
+			],
+			"title": "Popcorn"
+		},
+    {
+			"directions": [
+				"Dry-fry the beef in a frying pan until brown and crumbly, stirring occasionally and breaking it up with a wooden spoon",
+				"Add the onion, green pepper and garlic; cook, stirring occasionally, until softened. Stir in the herbs and spices; season to taste with salt and pepper. Add the tomato puree and mix well. Cover and cook gently for 10 minutes, stirring occasionally.",
+				"Place a little of the mixture on each tortilla and roll up, or spoon into the taco shells. Secure tortillas with a cocktail stick. If using tortillas, heat the oil in a frying pan and then fry the rolls quickly until golden. Serve with your choice of accompaniments."
+			],
+			"ingredients": [
+				"Beef",
+				"Onions",
+				"Pepper",
+				"Garlic",
+				"Tomato",
+				"Tortillas",
+				"Salt",
+				"Pepper",
+				"Olive Oil"
+			],
+			"image": "taco.jpg",
+			"nationality": "Mexican",
+			"tags": [
+				"Dinner",
+				"Lunch",
+        "Snack"
+			],
+			"title": "Mexican Tacos"
+		}
+	]
+}
